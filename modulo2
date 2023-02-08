@@ -1,0 +1,55 @@
+function teste (mensagem) {
+    console.log (mensagem)
+}
+
+
+
+teste("eu sou bonito")
+
+function mostrarnome(nome){
+    console.log(nome);
+}
+mostrarnome("luiz guilherme")
+
+
+function nomeidadeestilomusical(nome,idade,estilomusical){
+    console.log(nome);
+    console.log(idade);
+    console.log(estilomusical);
+}
+nomeidadeestilomusical("luiz guilherme")
+nomeidadeestilomusical("23 anos")
+nomeidadeestilomusical("mpb")
+
+
+function triplo(numero) {
+    console.log(numero *3);
+}
+triplo(5); 
+
+
+
+
+function filmeemusica(filme,musica){
+    console.log(filme);
+    console.log(musica);    
+} 
+filmeemusica("o resgate do soldado ryan")
+filmeemusica("Adventure of a Lifetime")
+    
+
+
+
+
+let bool= true; 
+
+function verificarVerdade(){
+    if (bool == true){
+        return console.log("é verdade");
+    } else {
+
+        return console.log("é falsa");
+    }
+
+}
+verificarVerdade();
